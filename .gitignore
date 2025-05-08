@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+build/
+
+# System
+_DS_Store
+Thumbs_db
+
+# Logs and stuff
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp
+*.tmp
+*.swp
+
+# Personal Configs
+.env
+.vscode/
+.idea/
+
+# Rust Cache
+Cargo.lock
+target/
