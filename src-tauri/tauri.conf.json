@@ -12,9 +12,16 @@
     "app": {
         "windows": [
             {
+                "transparent": true,
                 "decorations": false,
-                "width": 800,
-                "height": 600
+                "alwaysOnTop": true,
+                "fullscreen": false,
+                "resizable": false,
+                "width": 600,
+                "height": 200,
+                "center": true,
+                "skipTaskbar": true,
+                "focus": true
             }
         ],
         "security": {
