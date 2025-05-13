@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { readDir, BaseDirectory } from '@tauri-apps/plugin-fs';
+import { readDir } from '@tauri-apps/plugin-fs';
 
 function Launcher() {
 
