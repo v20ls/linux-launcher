@@ -9,6 +9,7 @@ type FileEntry = {
 };
 function Launcher() {
     const [allFiles, setAllFiles] = useState<FileEntry[]>([]);
+    const [query, setQuery] = useState<string>('');
 
     return (
         <div>
