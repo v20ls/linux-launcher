@@ -10,6 +10,7 @@ type FileEntry = {
 function Launcher() {
     const [allFiles, setAllFiles] = useState<FileEntry[]>([]);
     const [query, setQuery] = useState<string>('');
+    const [filtered, setFiltered] = useState<FileEntry[]>([]);
 
     return (
         <div>
