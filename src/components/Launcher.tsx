@@ -8,6 +8,7 @@ type FileEntry = {
     children?: FileEntry[];
 };
 function Launcher() {
+    const [allFiles, setAllFiles] = useState<FileEntry[]>([]);
 
     return (
         <div>
